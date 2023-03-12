@@ -14,7 +14,7 @@ body {
   font-family: "Roboto";
   letter-spacing: 0.02em;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .logo {
@@ -27,12 +27,6 @@ body {
   color: var(--title-text-color);
 }
 .accent {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 133%;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -43,7 +37,6 @@ body {
 
 .site-nav .link {
   font-weight: 500;
-  list-style-type: none;
   color: var(--primary-text-color);
 }
 
@@ -61,10 +54,6 @@ body {
   color: var(--link-color);
 }
 
-.address .link {
-  transition-duration: 0.3s;
-}
-
 .list {
   list-style: none;
 }
@@ -77,9 +66,8 @@ body {
   background-color: var(--title-text-color);
 }
 .header-title {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
@@ -88,7 +76,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
 }
@@ -137,17 +125,17 @@ body {
   overflow: hidden;
 }
 
-.subtitle {
+.section-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   color: var(--title-text-color);
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
+  text-transform: capitalize;
   color: var(--title-text-color);
 }
 
